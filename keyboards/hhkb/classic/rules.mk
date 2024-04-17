@@ -24,13 +24,13 @@ ARMV = 6
 # Build Options
 #   change yes to no to disable
 #
-BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
-MOUSEKEY_ENABLE = no        # Mouse keys
-EXTRAKEY_ENABLE = yes       # Audio control and System control
-CONSOLE_ENABLE = yes         # Console for debug
-COMMAND_ENABLE = yes        # Commands for debug and configuration
-NKRO_ENABLE = no            # USB Nkey Rollover
-DIP_SWITCH_ENABLE = yes     # Enable DIP switch support
+BOOTMAGIC_ENABLE	= yes      # Enable Bootmagic Lite
+MOUSEKEY_ENABLE		= no       # Mouse keys
+EXTRAKEY_ENABLE		= no       # Audio control and System control
+CONSOLE_ENABLE		= yes      # Console for debug
+COMMAND_ENABLE		= yes      # Commands for debug and configuration
+NKRO_ENABLE			= no       # USB Nkey Rollover
+DIP_SWITCH_ENABLE	= yes      # Enable DIP switch support
 
 DFU_ARGS = -d 0483:df11 -a 0 -s 0x08000000:leave
 
